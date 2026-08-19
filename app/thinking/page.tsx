@@ -22,6 +22,13 @@ export default function ThinkingPage() {
           >
             github.com/arshansari2880-alt/pulse
           </a>
+          <br />
+          <a
+            href="https://www.figma.com/design/rq1z3iJ6tLHcUDSR0KbgvM"
+            className="text-accent"
+          >
+            Figma · Living Map
+          </a>
         </p>
         <p className="mt-6">
           <Link href="/" className="font-mono text-[11px] uppercase tracking-meta text-accent">

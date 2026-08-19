@@ -74,6 +74,12 @@ export default function SubmitPage() {
                 https://pulse-hm6h.onrender.com/thinking
               </a>
             </li>
+            <li>
+              Figma:{" "}
+              <a className="text-accent" href="https://www.figma.com/design/rq1z3iJ6tLHcUDSR0KbgvM">
+                https://www.figma.com/design/rq1z3iJ6tLHcUDSR0KbgvM
+              </a>
+            </li>
           </ul>
           <p className="mt-3 font-mono text-[10px] uppercase tracking-meta text-mute">
             Render free tier may cold-start for a few seconds after idle.

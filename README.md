@@ -9,7 +9,8 @@ Internship submission for **Subverse Media Tech Pvt. Ltd.**
 Pulse is a map of what is alive in Pune right now. Pins pulse by liveliness. Crowds collapse into blooms. Quiet hours are a designed state.
 
 **Repo:** [github.com/arshansari2880-alt/pulse](https://github.com/arshansari2880-alt/pulse)  
-**Live:** [https://pulse-hm6h.onrender.com](https://pulse-hm6h.onrender.com)
+**Live:** [https://pulse-hm6h.onrender.com](https://pulse-hm6h.onrender.com)  
+**Figma:** [figma.com/design/rq1z3iJ6tLHcUDSR0KbgvM](https://www.figma.com/design/rq1z3iJ6tLHcUDSR0KbgvM)  
 **Case study:** `/thinking`  
 **Submission PDF:** `Arsh_Ansari_Pulse_Submission.pdf`
 

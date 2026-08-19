@@ -4,6 +4,7 @@
 **Email:** arsh.ansari2880@gmail.com  
 **GitHub:** https://github.com/arshansari2880-alt/pulse  
 **Live:** https://pulse-hm6h.onrender.com  
+**Figma:** https://www.figma.com/design/rq1z3iJ6tLHcUDSR0KbgvM  
 **Role:** UI/UX Design Intern  
 **Challenge:** 01 — The Living Map  
 **Product:** Pulse
@@ -12,8 +13,9 @@
 
 1. Live prototype — Render URL (after deploy) or `npm run dev`
 2. GitHub — https://github.com/arshansari2880-alt/pulse
-3. Design thinking — `/thinking`
-4. This note + README + PDF
+3. Figma — https://www.figma.com/design/rq1z3iJ6tLHcUDSR0KbgvM
+4. Design thinking — `/thinking`
+5. This note + README + PDF
 
 ## How to review (2 minutes)
 
