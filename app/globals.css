@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  min-height: 100%;
+  background: #0a0c08;
+  color: #f4f1ea;
+}
+
+body {
+  font-family: var(--font-body), system-ui, sans-serif;
+}
+
+::selection {
+  background: #baff26;
+  color: #0a0c08;
+}
+
+.pulse-vignette {
+  background:
+    radial-gradient(ellipse 90% 70% at 50% 42%, transparent 20%, rgba(10, 12, 8, 0.55) 100%),
+    radial-gradient(ellipse 50% 40% at 50% 0%, rgba(186, 255, 38, 0.04), transparent 55%);
+}
+
+.pulse-grain {
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 160px 160px;
+}
+
+@keyframes river-flow {
+  to {
+    stroke-dashoffset: -80;
+  }
+}
+
+.river-flow {
+  stroke-dasharray: 6 14;
+  animation: river-flow 18s linear infinite;
+}
+
+@keyframes pinPing {
+  0% {
+    transform: scale(0.95);
+    opacity: 0.55;
+  }
+  100% {
+    transform: scale(2.15);
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .river-flow {
+    animation: none !important;
+  }
+}
+
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
