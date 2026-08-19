@@ -8,8 +8,8 @@ Internship submission for **Subverse Media Tech Pvt. Ltd.**
 
 Pulse is a map of what is alive in Pune right now. Pins pulse by liveliness. Crowds collapse into blooms. Quiet hours are a designed state.
 
-**Repo:** [github.com/Sukhxdx/pulse](https://github.com/Sukhxdx/pulse)  
-**Live:** [Deploy to Render](https://render.com/deploy?repo=https://github.com/Sukhxdx/pulse) (uses `render.yaml`; free web service)
+**Repo:** [github.com/arshansari2880-alt/pulse](https://github.com/arshansari2880-alt/pulse)  
+**Live:** [Deploy to Render](https://render.com/deploy?repo=https://github.com/arshansari2880-alt/pulse) (uses `render.yaml`; free web service)
 
 After Render finishes, paste the `onrender.com` URL here and in the PDF.
 **Case study:** `/thinking`  

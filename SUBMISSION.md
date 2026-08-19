@@ -2,7 +2,7 @@
 
 **Candidate:** Arsh Ansari  
 **Email:** arsh.ansari2880@gmail.com  
-**GitHub:** https://github.com/Sukhxdx/pulse  
+**GitHub:** https://github.com/arshansari2880-alt/pulse  
 **Role:** UI/UX Design Intern  
 **Challenge:** 01 — The Living Map  
 **Product:** Pulse
@@ -10,7 +10,7 @@
 ## What to open
 
 1. Live prototype — Render URL (after deploy) or `npm run dev`
-2. GitHub — https://github.com/Sukhxdx/pulse
+2. GitHub — https://github.com/arshansari2880-alt/pulse
 3. Design thinking — `/thinking`
 4. This note + README + PDF
 

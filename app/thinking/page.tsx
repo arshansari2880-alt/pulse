@@ -17,10 +17,10 @@ export default function ThinkingPage() {
           Arsh Ansari · arsh.ansari2880@gmail.com
           <br />
           <a
-            href="https://github.com/Sukhxdx/pulse"
+            href="https://github.com/arshansari2880-alt/pulse"
             className="text-accent"
           >
-            github.com/Sukhxdx/pulse
+            github.com/arshansari2880-alt/pulse
           </a>
         </p>
         <p className="mt-6">

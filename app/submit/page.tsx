@@ -62,13 +62,13 @@ export default function SubmitPage() {
             </li>
             <li>
               GitHub:{" "}
-              <a className="text-accent" href="https://github.com/Sukhxdx/pulse">
-                https://github.com/Sukhxdx/pulse
+              <a className="text-accent" href="https://github.com/arshansari2880-alt/pulse">
+                https://github.com/arshansari2880-alt/pulse
               </a>
             </li>
             <li>
               Design thinking:{" "}
-              <a className="text-accent" href="https://github.com/Sukhxdx/pulse">
+              <a className="text-accent" href="https://github.com/arshansari2880-alt/pulse">
                 /thinking
               </a>{" "}
               on the live site
