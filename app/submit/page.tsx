@@ -57,22 +57,21 @@ export default function SubmitPage() {
           </p>
           <ul className="mt-3 space-y-2 text-[14px]">
             <li>
-              Live prototype:{" "}
-              <a className="text-accent" href="https://pulse-map.onrender.com">
-                https://pulse-map.onrender.com
-              </a>
+              Live prototype: deploy from the GitHub repo (Render). After it is live, the URL
+              will be listed in the README.
             </li>
             <li>
               GitHub:{" "}
-              <a className="text-accent" href="https://github.com/arshansari2880-alt/pulse">
-                https://github.com/arshansari2880-alt/pulse
+              <a className="text-accent" href="https://github.com/Sukhxdx/pulse">
+                https://github.com/Sukhxdx/pulse
               </a>
             </li>
             <li>
               Design thinking:{" "}
-              <a className="text-accent" href="https://pulse-map.onrender.com/thinking">
+              <a className="text-accent" href="https://github.com/Sukhxdx/pulse">
                 /thinking
-              </a>
+              </a>{" "}
+              on the live site
             </li>
           </ul>
           <p className="mt-3 font-mono text-[10px] uppercase tracking-meta text-mute">
