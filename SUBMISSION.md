@@ -3,6 +3,7 @@
 **Candidate:** Arsh Ansari  
 **Email:** arsh.ansari2880@gmail.com  
 **GitHub:** https://github.com/arshansari2880-alt/pulse  
+**Live:** https://pulse-hm6h.onrender.com  
 **Role:** UI/UX Design Intern  
 **Challenge:** 01 — The Living Map  
 **Product:** Pulse

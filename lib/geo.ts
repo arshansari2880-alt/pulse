@@ -78,6 +78,11 @@ export function curvePath(
   return `M ${x1} ${y1} Q ${mx - dy * 0.18} ${my + dx * 0.18} ${x2} ${y2}`;
 }
 
+export function mapsUrl(name: string, address: string) {
+  const q = `${name}, ${address}, Pune`;
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`;
+}
+
 export function sparklineFor(id: string, current: number) {
   let seed = 0;
   for (let i = 0; i < id.length; i++) seed = (seed * 31 + id.charCodeAt(i)) >>> 0;

@@ -51,6 +51,9 @@ export function PinNode({
       }}
       tabIndex={filteredOut ? -1 : 0}
       data-pin
+      data-x={place.x}
+      data-y={place.y}
+      data-pin-scale="1"
       role="button"
       aria-label={`${place.name}, ${place.type}, ${live} alive`}
       opacity={filteredOut ? 0.12 : dimmed ? 0.3 : 1}
@@ -118,6 +121,9 @@ export function BloomNode({
       className="cursor-pointer"
       opacity={dimmed ? 0.35 : 1}
       data-pin
+      data-x={x}
+      data-y={y}
+      data-pin-scale="1.18"
       onPointerDown={(e) => e.stopPropagation()}
       onClick={(e) => {
         e.stopPropagation();
@@ -167,7 +173,12 @@ export function BloomNode({
 
 export function UserPuck({ scale }: { scale: number }) {
   return (
-    <g transform={`translate(62.4 40.8) scale(${scale})`}>
+    <g
+      transform={`translate(62.4 40.8) scale(${scale})`}
+      data-pin-scale="0.92"
+      data-x="62.4"
+      data-y="40.8"
+    >
       <circle r="16" fill="#BAFF26" fillOpacity="0.08" />
       <circle r="6.5" fill="#BAFF26" />
       <circle r="2.4" fill="#0A0C08" />

@@ -15,13 +15,17 @@ export function BottomSheet({
   place,
   scene,
   saved,
+  joined,
   onSave,
+  onPrimary,
   onClose,
 }: {
   place: Place | null;
   scene: Scene;
   saved: boolean;
+  joined: boolean;
   onSave: () => void;
+  onPrimary: () => void;
   onClose: () => void;
 }) {
   return (
@@ -124,17 +128,24 @@ export function BottomSheet({
             <div className="mt-4 flex gap-2">
               <button
                 type="button"
+                onClick={onPrimary}
                 className="flex-1 rounded-chip bg-accent py-3 text-center font-display text-sm font-semibold tracking-tight text-bg"
               >
-                {place.cta}
+                {place.cta === "Join" && joined
+                  ? "Joined"
+                  : place.cta === "Save" && saved
+                    ? "Saved"
+                    : place.cta}
               </button>
-              <button
-                type="button"
-                onClick={onSave}
-                className="rounded-chip border border-white/10 px-4 py-3 font-mono text-[11px] uppercase tracking-meta text-ink"
-              >
-                {saved ? "Saved" : "Save"}
-              </button>
+              {place.cta !== "Save" && (
+                <button
+                  type="button"
+                  onClick={onSave}
+                  className="rounded-chip border border-white/10 px-4 py-3 font-mono text-[11px] uppercase tracking-meta text-ink"
+                >
+                  {saved ? "Saved" : "Save"}
+                </button>
+              )}
             </div>
           </div>
         </motion.section>
